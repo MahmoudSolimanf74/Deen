@@ -54,6 +54,7 @@ class _SplachScreenState extends State<SplachScreen>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color.fromARGB(255, 9, 83, 62),
       body: Center(
         child: FadeTransition(
           opacity: _fadeAnimation,

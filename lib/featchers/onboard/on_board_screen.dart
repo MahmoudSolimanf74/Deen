@@ -1,4 +1,4 @@
-import 'package:eslamicapp/featchers/Home/home_screen.dart';
+import 'package:eslamicapp/featchers/Home/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 
