@@ -1,5 +1,5 @@
 import 'package:eslamicapp/featchers/Home/model/home_card_model.dart';
-import 'package:eslamicapp/featchers/Home/model/pray_time_model.dart';
+import 'package:eslamicapp/featchers/azan/views/azan_screen.dart';
 import 'package:eslamicapp/featchers/moshaf/quran.dart';
 import 'package:flutter/material.dart';
 
@@ -15,6 +15,7 @@ class HomeViewmodel extends ChangeNotifier {
       icon: Icons.access_time,
       title: "الأذان",
       subtite: "مواقيت الصلاة",
+      page: AzanScreen(),
     ),
     HomeCardModel(
       icon: Icons.back_hand_outlined,
@@ -28,19 +29,5 @@ class HomeViewmodel extends ChangeNotifier {
     ),
   ];
 
-  List<PrayTimeModel> prayers = [
-    PrayTimeModel(
-      icon: Icons.wb_twighlight,
-      prayname: "الفجر",
-      praytime: "5:15",
-    ),
-    PrayTimeModel(icon: Icons.wb_sunny, prayname: "الظهر", praytime: "5:15"),
-    PrayTimeModel(icon: Icons.wb_cloudy, prayname: "العصر", praytime: "5:15"),
-    PrayTimeModel(
-      icon: Icons.nights_stay,
-      prayname: "المغرب",
-      praytime: "5:15",
-    ),
-    PrayTimeModel(icon: Icons.dark_mode, prayname: "العشاء", praytime: "5:15"),
-  ];
+  
 }
